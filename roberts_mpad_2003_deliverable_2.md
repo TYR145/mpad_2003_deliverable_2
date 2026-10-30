@@ -5,14 +5,11 @@
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
 
-<!--Use one hashtag symbol (`#`) to create a level 1 heading like this one.-->
+<!--Use one hashtag symbol (`#`) to create a level 1 heading like this one.
 
 ## Foreword
 
-
-# Deliverable 2: Exploratory Data Analysis (EDA)
-
-<!-- For this assignment, you must clean and analyze the dataset from Deliverable 1, create exploratory charts/visualizations, and identify a potential story. Your assignment must clearly detail your process. You are expected to write about 1,000-1,200 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub.
+For this assignment, you must clean and analyze the dataset from Deliverable 1, create exploratory charts/visualizations, and identify a potential story. Your assignment must clearly detail your process. You are expected to write about 1,000-1,200 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub.
 
 I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
 
@@ -27,7 +24,30 @@ And to create an unordered list, we simply put a star (`*`) before each item. --
 
 ## 1. Getting Data
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+The selected Dataset is the City of Ottawa's Database about <ins>[Public Washrooms](https://open.ottawa.ca/datasets/ottawa::public-washrooms/about).</ins>
+
+**IMPORT INTO GOOGLE SHEETS:**
+**1.** On the Open Ottawa site, Click "Download", select the <ins>CVS</ins> file option, then "Save"
+![](downloading-database-step1.jpg)
+*Figure 1: Downloading database from Open Ottawa.*
+
+**2.** Open Google Sheets, Click "<ins>File</ins>", then "<ins>Import</ins>", then "<ins>Upload</ins>" to import the CVS file data
+![](downloading-database-step2.1.jpg)
+*Figure 2: CVS file import on Google Sheets.*
+
+![](downloading-database-step2.2.jpg)
+*Figure 3: Google Sheets "Import data" file prompt.*
+
+**3.** Click "<ins>Import data</ins>" and now the file has been imported!
+![](downloading-database-imported.jpg)
+*Figure 4: First 28 rows of fully imported Database.*
+
+**Public GoogleSheets Link:** <ins> https://docs.google.com/spreadsheets/d/1WWs_5XDITIMu7ZMi5Y0k4jcVvdXTl-t2ZMsUHL9qOp0/edit?usp=sharing </ins>
+<br>
+**Dataset Observations:**
+(WIP)
+
+<!--<br> Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
 To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
 
@@ -43,7 +63,7 @@ To include a screen capture, use the sample code below. Your images should be sa
 ``` r
 =IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
 ```
-This also shows how to create an ordered list. Simply put `1.` before each item.
+This also shows how to create an ordered list. Simply put `1.` before each item. -->
 
 ## 2. Understanding Data
 
