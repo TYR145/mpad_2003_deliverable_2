@@ -1,7 +1,8 @@
-**Date: October 29, 2026**<br>
-**Course: MPAD 2003 A - Introductory Data Storytelling**<br>
-**Student Name: Tessa Roberts (#101371137)**<br>
-**Presented to Jean-Sébastien Marier**<br>
+**Date:** October 29, 2026<br>
+**Course:** MPAD 2003 A - Introductory Data Storytelling<br>
+**Student Name:** Tessa Roberts (#101371137)<br>
+**Presented to:** Jean-Sébastien Marier<br>
+<br>
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
 
@@ -27,14 +28,13 @@ And to create an unordered list, we simply put a star (`*`) before each item. --
 The selected Dataset is the City of Ottawa's Database about <ins>[Public Washrooms](https://open.ottawa.ca/datasets/ottawa::public-washrooms/about).</ins>
 
 **IMPORT INTO GOOGLE SHEETS:** 
-## (CHANGE TO FULL SENTENCES)
-**1.** On the Open Ottawa site, Click "Download", select the <ins>CVS</ins> file option, then "Save"
+**1.** Click "<ins>Download</ins>", select the CVS file option, then "<ins>Save</ins>".
 ![](downloading-database-step1.jpg)
 *Figure 1: Downloading database from Open Ottawa.*
 
-**2.** Open Google Sheets, Click "<ins>File</ins>", then "<ins>Import</ins>", then "<ins>Upload</ins>" to import the CVS file data
+**2.** Open Google Sheets, Click "<ins>File</ins>", then "<ins>Import</ins>", then "<ins>Upload</ins>" to import the CSV file.
 ![](downloading-database-step2.1.jpg)
-*Figure 2: CVS file import on Google Sheets.*
+*Figure 2: CSV file import on Google Sheets.*
 
 ![](downloading-database-step2.2.jpg)
 *Figure 3: Google Sheets "Import data" file prompt.*
@@ -44,10 +44,16 @@ The selected Dataset is the City of Ottawa's Database about <ins>[Public Washroo
 *Figure 4: First 28 rows of fully imported Database.*
 
 **Public GoogleSheets Link:** <ins> https://docs.google.com/spreadsheets/d/1WWs_5XDITIMu7ZMi5Y0k4jcVvdXTl-t2ZMsUHL9qOp0/edit?usp=sharing </ins>
-<br>
+
 **Dataset Observations:**
-* 52 total columns --> _(but last 2 columns are empty)_
-* 180 total rows --> _(but last 2 columns are empty)_
+The dataset appears consistent across 52 columns and 180 rows. Information starts off dense towards the left and gradually gets more spaced out the farther the columns reach the right, where most data is duplicated to adapt French translations. However the final 2 rows and columns are completely empty. 
+
+The data features both Right and Left text alignments; with numerical data being aligned right as shown for the (-X, Y) coordinates in columns A-B and washroom opening and closing hours in columns M-AF. Meanwhile, all nominal data is aligned left like in column D for location names or column AO for their Jurisdiction.
+Interestingly, the dataset features another set of (-X, Y) coordinates in columns AM-AN. Both seemingly pinpoint the washroom locations, bringing up the question of why a second coordinate system is needed when location information is already provided in columns A-B.
+
+While specified information helps to differentiate data types, duplicate information makes it hard to navigate and coupled with the mixed alignments, information can appear overly cluttered at first glance.
+
+
 
 <!--<br> Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
