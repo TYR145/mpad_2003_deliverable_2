@@ -26,7 +26,8 @@ And to create an unordered list, we simply put a star (`*`) before each item. --
 
 The selected Dataset is the City of Ottawa's Database about <ins>[Public Washrooms](https://open.ottawa.ca/datasets/ottawa::public-washrooms/about).</ins>
 
-**IMPORT INTO GOOGLE SHEETS:**
+**IMPORT INTO GOOGLE SHEETS:** 
+## (CHANGE TO FULL SENTENCES)
 **1.** On the Open Ottawa site, Click "Download", select the <ins>CVS</ins> file option, then "Save"
 ![](downloading-database-step1.jpg)
 *Figure 1: Downloading database from Open Ottawa.*
@@ -45,7 +46,8 @@ The selected Dataset is the City of Ottawa's Database about <ins>[Public Washroo
 **Public GoogleSheets Link:** <ins> https://docs.google.com/spreadsheets/d/1WWs_5XDITIMu7ZMi5Y0k4jcVvdXTl-t2ZMsUHL9qOp0/edit?usp=sharing </ins>
 <br>
 **Dataset Observations:**
-(WIP)
+* 52 total columns --> _(but last 2 columns are empty)_
+* 180 total rows --> _(but last 2 columns are empty)_
 
 <!--<br> Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
