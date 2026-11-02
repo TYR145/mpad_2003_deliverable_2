@@ -28,6 +28,7 @@ And to create an unordered list, we simply put a star (`*`) before each item. --
 The selected Dataset is the City of Ottawa's Database about <ins>[Public Washrooms](https://open.ottawa.ca/datasets/ottawa::public-washrooms/about).</ins>
 
 **IMPORT INTO GOOGLE SHEETS:** 
+
 **1.** Click "<ins>Download</ins>", select the CVS file option, then "<ins>Save</ins>".
 ![](downloading-database-step1.jpg)
 *Figure 1: Downloading database from Open Ottawa.*
@@ -77,7 +78,7 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 2.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+<!-- Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.-->
 
 Insert text here.
 
