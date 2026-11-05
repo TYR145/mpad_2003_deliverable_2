@@ -80,7 +80,7 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 <!-- Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.-->
 
-Insert text here.
+A VIMO analysis is an acronym representing different methods to assess the quality of data; Valid, Invalid, Missing or an Outlier (Government of Canada, 2020). Using these methods, I can analyze the quality of my chosen dataset on Ottawa’s Public Washrooms.
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
