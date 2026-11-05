@@ -82,22 +82,48 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 A VIMO analysis is an acronym representing different methods to assess the quality of data; Valid, Invalid, Missing or an Outlier (Government of Canada, 2020). Using these methods, I can analyze the quality of my chosen dataset on Ottawa’s Public Washrooms.
 
-Despite counting 178 rows of information and columns spanning from A-AX, the spreadsheet actually has 180 rows total and 2 extra columns of AY and AZ. However, those cells were omitted from the calculations due to containing no data types or column categories. Rather than collecting data, they seem to serve as a type of outer border for the dataset.
+**Column D - NAME**
+<ins>VALID</ins>
+Column D seems valid due to each facility name clearly defining the location as a park, centre, library or other public facility. The column contains 163 unique names, compared to a total of 5 duplicate names erach appearing with a frequency of 2 or 3 times. Most entries listed represent actual locations rather than repetitive or placeholder text.
+
+<ins>INVALID</ins>
+Row 52 has inconsistent naming convention for Mooney’s Bay by omitting the apostrophe in “Mooneys Bay Beach Building”.
+While there are a handful of rows with identical names, it doesn’t mean they’re errors upon further inspection. Some duplicates have separate coordinates, implying they’re individual toilets within the same location. Meanwhile some share the same cell and pair of coordinates, but it’s unclear whether they reflect multiple toilets at one location, a duplicate text entry, or a unique formatting choice.
+
+<ins>MISSING</ins>
+No values appear to be missing. While there are 2 empty cells in rows 179 and 180, they appear to be part of the spreadsheet formatting and not meant to represent missing data.
+
+<ins>OUTLIERS</ins>
+Most duplicates are separated by 27-32 rows, meanwhile Claudette Cain Park and Deevy Pines Park deviate from the pattern of a large gap by respectively having close placements of 3 rows between, and none at all.
+<br>
+**Column F - FACILITY_GROUP_NAMES**
+<ins>VALID</ins>
+Of the 179 toilet locations listed, 123 were tagged using 6 facility-group names: RECREATION, ARTS and CULTURES, CIVIC ADMINISTRATIONS, PROTECTIVE SERVICES, SOCIAL SERVICES, and GENERAL PURPOSE. The consistent naming and format of those names displays a standard category system.
+
+<ins>INVALID</ins>
+No values have been found invalid. All cells that are not empty follow the 6 facility group names standardized in the dataset.
+
+<ins>MISSING</ins>
+There are a total of 56 empty cells within Column F. The final rows, 179 and 180, are completely empty and may have contributed to the calculation. All empty cells before are likely missing values since later the facility group names are specified. 
+
+<ins>OUTLIERS</ins>
+RECREATION, ARTS and CULTURE, and CIVIC ADMINISTRATION locations range from 10-73, making up the majority of the facility group names listed. In contrast, PROTECTIVE SERVICES, SOCIAL SERVICES and GENERAL PURPOSE are the outliers ranging between 1-3 of the locations listed.
+<br>
+**Column J, K, L - SEASONAL, SEASON_START, SEASON_END**
+<ins>VALID</ins>
+The data in Column J follows a binary system of 0 and 1. There are 108 rows containing 0 compared to the 69 rows containing 1. Each value correlates with the months marking the start (K) and end (L) time they’re open. Every value of 1 has seasonal month conditions, and every 0 has conditions marked with “NA”.
+
+<ins>INVALID</ins>
+No values have been found invalid. The data in columns K and L follow a consistent format of all capitalized letters in the month abbreviations and non-applicable (NA) seasonal conditions.
+
+<ins>MISSING</ins>
+No values appear to be missing. While there are 2 empty cells in rows 179 and 180, they appear to be part of the spreadsheet formatting and not meant to represent missing data.
+
+<ins>OUTLIERS</ins>
+No data outliers have been found, aside from the formatting issue that extends the length of the cells in row 57. Otherwise, all values follow the expected format.
 
 
-<ins>Column D - NAMES</ins>
-OUTLIERS:
-There are a few instances of duplicate listings for name locations: Carlington Park (rows 2 and 3), Ottawa Public Library Munster Hamlet Branch (row 57), and the Ottawa Public Library Greely Branch (row 159). Most rows feature a single location with their own pair of coordinates, so these deviate from the majority. At first glance, they seem like potential outliers for being featured twice, as for the case with Carlington Park. But upon further inspection, each actually has separate pairs of coordinates, implying they represent different toilets within the same park. 
-As for the rows 57 and 159, library listings each share a cell and pair of coordinates. Among the other library locations, nowhere else is a double location name featured, but it’s unclear whether they reflect multiple toilets at the same location, a duplicate text entry, or a unique formatting choice.
-
-
-<ins>Column F - FACILITY_GROUP_NAMES</ins>
-VALID:
-Each location is categorized as a type of Government facility; RECREATION, ARTS and CULTURES, CIVIC ADMINISTRATIONS, PROTECTIVE SERVICES, SOCIAL SERVICES, and GENERAL PURPOSE. Of the 179 records reviewed, 122 contained a facility-group classification. The categories observed were limited to a small number of consistent values, suggesting that the column follows a standardized classification system.
-
-
-
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
+<!--Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).-->
 
 **For example:**
 
