@@ -82,6 +82,9 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 A VIMO analysis is an acronym representing different methods to assess the quality of data; Valid, Invalid, Missing or an Outlier (Government of Canada, 2020). Using these methods, I can analyze the quality of my chosen dataset on Ottawa’s Public Washrooms.
 
+Despite counting 178 rows of information and columns spanning from A-AX, the spreadsheet actually has 180 rows total and 2 extra columns of AY and AZ. However, those cells were omitted from the calculations due to containing no data types or column categories. Rather than collecting data, they seem to serve as a type of outer border for the dataset.
+
+
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
 **For example:**
