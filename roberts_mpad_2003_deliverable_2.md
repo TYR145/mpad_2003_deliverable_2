@@ -84,6 +84,16 @@ A VIMO analysis is an acronym representing different methods to assess the quali
 
 Despite counting 178 rows of information and columns spanning from A-AX, the spreadsheet actually has 180 rows total and 2 extra columns of AY and AZ. However, those cells were omitted from the calculations due to containing no data types or column categories. Rather than collecting data, they seem to serve as a type of outer border for the dataset.
 
+<ins>Column F - NAMES</ins>
+VALID:
+Each location is categorized as a type of Government facility; RECREATION, ARTS and CULTURES, CIVIC ADMINISTRATIONS, PROTECTIVE SERVICES, SOCIAL SERVICES, and GENERAL PURPOSE. Of the 179 records reviewed, 122 contained a facility-group classification. The categories observed were limited to a small number of consistent values, suggesting that the column follows a standardized classification system.
+
+OUTLIERS:
+There are a few instances of duplicate listings for name locations: Carlington Park (rows 2 and 3), Ottawa Public Library Munster Hamlet Branch (row 57), and the Ottawa Public Library Greely Branch (row 159). Most rows feature a single location with their own pair of coordinates, so these deviate from the majority. At first glance, they seem like potential outliers for being featured twice, as for the case with Carlington Park. But upon further inspection, each actually has separate pairs of coordinates, implying they represent different toilets within the same park. 
+As for the rows 57 and 159, library listings each share a cell and pair of coordinates. Among the other library locations, nowhere else is a double location name featured, but it’s unclear whether they reflect multiple toilets at the same location, a duplicate text entry, or a unique formatting choice.
+
+
+
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
