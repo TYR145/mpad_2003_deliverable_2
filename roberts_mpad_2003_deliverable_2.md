@@ -114,7 +114,44 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 
 ### 2.2. Cleaning Data
 
-Insert text here.
+- Selected whole sheet and adjusted cell widths
+- Freeze top row by dragging thick grey line down one cell
+- Bolded column titles
+- Changed columns vertical text alignment
+(SEASONAL) & (STAT_HOLIDAY_AVAILABILITY) 
+- Changed column “OBJECTID” heading to “OBJECT_ID”
+- Adjusted all text alignment to "middle"
+- Deleted empty rows and columns unrelated to toilet location names and operating times: 
+    - Phone numbers ⇒ no need 
+    - Jurisdiction ⇒ database already from OpenOttawa
+    - French columns ⇒ duplicated information
+- Used “ctrl+f” to easily find all the columns ending with “_FR” 
+Used “ctrl+f” to replace all number ‘1’ with YES and all number ‘0' with NO for the following:
+    - (SEASONAL) & (STAT_HOLIDAY_AVAILABILITY) 
+- Fixed “NAME”, “FACILITY_GROUP_NAME” and “SEASONAL”
+- Used “ctrl+f” to change “NA” to “N/A” for clearer abbreviation
+- Trimmed white spaces using Data cleanup feature
+- Adjusted OBJECT_ID vertical alignment to centre
+- Use `=CONCACTENATE(D2, “ Ottawa, Ontario, Canada”)` for the new ADDRESS column:
+    1. Copied and Pasted values only
+    2. Deleted old address column
+- Selected multiple columns using “shift+left-arrow-key” to reformat cell order by dragging columns “HOURS_MONDAY_CLOSED” and “HOURS_MONDAY_SPECIAL”, to be next to “HOURS_MONDAY_OPEN”
+- Replaced “2670 Queensview Drive” in NAME column to “Ottawa Police Service Records Management Service Centre”
+- Created a spreadsheet filter for NAME column to fill blank cells under FACILITY_GROUP_NAME: 
+    1. Clear (all filters)
+    2. Select to show BLANK & search “park”
+    3. Select all, then "ok"
+    4. Type “RECREATION” and dragged to fill all cells
+* FOR REMAINING CELLS:
+    1. Select to show BLANK
+    2. Small number of cells leftover can be manually filled in
+
+* Coloured cells with “xxxx” values to bring attention to them
+    * no indication what the value stands for
+* Converted all address names to capital text using `=UPPER(E:E)`
+    1. Copied and pasted values only
+    2. Deleted the original address column
+
 
 ### 2.3. Analyzing Data
 
