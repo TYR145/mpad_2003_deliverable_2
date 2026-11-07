@@ -80,47 +80,30 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 <!-- Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.-->
 
-A VIMO analysis is an acronym representing different methods to assess the quality of data; Valid, Invalid, Missing or an Outlier (Government of Canada, 2020). Using these methods, I can analyze the quality of my chosen dataset on Ottawa’s Public Washrooms.
-
 **Column D - NAME**
-<ins>VALID</ins>
-Column D seems valid due to each facility name clearly defining the location as a park, centre, library or other public facility. The column contains 163 unique names, compared to a total of 5 duplicate names erach appearing with a frequency of 2 or 3 times. Most entries listed represent actual locations rather than repetitive or placeholder text.
+Analysis of the original dataset column D shows that each facility name identifies a location, e.g., park, centre, library or other public facility. The column contains 163 unique names, and five duplicate names, with each duplicate appearing two to three times. Most listed entries represent actual locations not repetitive or placeholder text.
 
-<ins>INVALID</ins>
-Row 52 has inconsistent naming convention for Mooney’s Bay by omitting the apostrophe in “Mooneys Bay Beach Building”.
-While there are a handful of rows with identical names, it doesn’t mean they’re errors upon further inspection. Some duplicates have separate coordinates, implying they’re individual toilets within the same location. Meanwhile some share the same cell and pair of coordinates, but it’s unclear whether they reflect multiple toilets at one location, a duplicate text entry, or a unique formatting choice.
+A naming inconsistency is found in Row 52, the apostrophe was omitted incorrectly from “Mooneys Bay Beach Building”. A handful of rows have identical names but separate coordinates, suggesting individual toilets within one location. Some rows have both the name and street address in the cell, e.g., Row 161. There is also an issue with Row 114 where the address is shown duplicating the column ADDRESS
 
-<ins>MISSING</ins>
-No values appear to be missing. While there are 2 empty cells in rows 179 and 180, they appear to be part of the spreadsheet formatting and not meant to represent missing data.
-
-<ins>OUTLIERS</ins>
-Most duplicates are separated by 27-32 rows, meanwhile Claudette Cain Park and Deevy Pines Park deviate from the pattern of a large gap by respectively having close placements of 3 rows between, and none at all.
-<br>
+Two empty cells in rows 179 and 180 appear to be part of the spreadsheet formatting and are not meant to represent missing data. Most duplicate entries are separated by 27 to 32 rows, but Claudette Cain Park and Deevy Pines Park deviate from this, with three rows and zero rows separating their respective entries.  Some duplicate names share the same cell and pair of coordinates, it’s unclear if this reflects multiple toilets at one location, a duplicate text entry, or a unique formatting choice.
+ 
 **Column F - FACILITY_GROUP_NAMES**
-<ins>VALID</ins>
-Of the 179 toilet locations listed, 123 were tagged using 6 facility-group names: RECREATION, ARTS and CULTURES, CIVIC ADMINISTRATIONS, PROTECTIVE SERVICES, SOCIAL SERVICES, and GENERAL PURPOSE. The consistent naming and format of those names displays a standard category system.
+Of the 179 toilet locations listed, 123 were given one of six facility-group names: RECREATION, ARTS and CULTURE, CIVIC ADMINISTRATION, PROTECTIVE SERVICES, SOCIAL SERVICES, and GENERAL PURPOSE. The consistent naming and formatting  shows it follows a standard category system.
 
-<ins>INVALID</ins>
-No values have been found invalid. All cells that are not empty follow the 6 facility group names standardized in the dataset.
+No invalid category entries have been found. All cells that are not empty follow the six facility group names standardized in the dataset. Column F has 56 empty cells, including  Rows 179 and 180 that are completely empty. 
 
-<ins>MISSING</ins>
-There are a total of 56 empty cells within Column F. The final rows, 179 and 180, are completely empty and may have contributed to the calculation. All empty cells before are likely missing values since later the facility group names are specified. 
+Locations RECREATION, ARTS and CULTURE, and CIVIC ADMINISTRATION make up most of the facility group names, ranging from 10 to 73. In contrast, PROTECTIVE SERVICES, SOCIAL SERVICES and GENERAL PURPOSE are the outliers ranging from 1 to 3 locations.
 
-<ins>OUTLIERS</ins>
-RECREATION, ARTS and CULTURE, and CIVIC ADMINISTRATION locations range from 10-73, making up the majority of the facility group names listed. In contrast, PROTECTIVE SERVICES, SOCIAL SERVICES and GENERAL PURPOSE are the outliers ranging between 1-3 of the locations listed.
-<br>
-**Column J, K, L - SEASONAL, SEASON_START, SEASON_END**
-<ins>VALID</ins>
-The data in Column J follows a binary system of 0 and 1. There are 108 rows containing 0 compared to the 69 rows containing 1. Each value correlates with the months marking the start (K) and end (L) time they’re open. Every value of 1 has seasonal month conditions, and every 0 has conditions marked with “NA”.
 
-<ins>INVALID</ins>
-No values have been found invalid. The data in columns K and L follow a consistent format of all capitalized letters in the month abbreviations and non-applicable (NA) seasonal conditions.
 
-<ins>MISSING</ins>
-No values appear to be missing. While there are 2 empty cells in rows 179 and 180, they appear to be part of the spreadsheet formatting and not meant to represent missing data.
 
-<ins>OUTLIERS</ins>
-No data outliers have been found, aside from the formatting issue that extends the length of the cells in row 57. Otherwise, all values follow the expected format.
+**Column J, K, L - SEASONAL**
+Column J follows a binary classification system with 108 rows containing ‘0’ and 69 rows containing ‘1’. Each value correlates with the months marking the start (K) and end (L) time they’re open. Every value of ‘1’ has seasonal month conditions, while ‘0’ has conditions marked with “NA”.
+
+Columns K and L follow a consistent format with capitalized letters in the month abbreviations and non-applicable (NA) in seasonal conditions.
+
+A formatting issue in row 57 extends beyond the standard length.  All other entries follow the expected format.
+Two empty cells in rows 179 and 180 appear to be part of the spreadsheet formatting and are not meant to represent missing data.
 
 
 <!--Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).-->
