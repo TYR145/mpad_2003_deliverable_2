@@ -151,7 +151,12 @@ Used “ctrl+f” to replace all number ‘1’ with YES and all number ‘0' wi
 * Converted all address names to capital text using `=UPPER(E:E)`
     1. Copied and pasted values only
     2. Deleted the original address column
+    
+![](cleaned-up-dataset1.jpg)
+*Figure 5: Top half of the dataset.*
 
+![](cleaned-up-dataset2.jpg)
+*Figure 6: Further down the dataset, showcasing orange cells.*
 
 ### 2.3. Analyzing Data
 
