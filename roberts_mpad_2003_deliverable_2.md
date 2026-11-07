@@ -159,9 +159,16 @@ Used “ctrl+f” to replace all number ‘1’ with YES and all number ‘0' wi
 *Figure 6: Further down the dataset, showcasing orange cells.*
 
 ### 2.3. Analyzing Data
+![](cleaneddata-pivot-table.jpg)
+*Figure 7: Pivot table displaying number and total number of toilets per month range.*
 
-Insert text here.
+![](cleaneddata-stacked-bar-chart.jpg)
+*Figure 8: Visualization chart of availability each month, excluding N/A, and categorized by facility group*
 
+The purpose of the variables is to show seasonal availability of public washrooms. The best data elements to provide this information are ‘Season Start’ and ‘Season End’ as they can provide the number of washrooms available per season.  The significant number of N/A values across the various months highlights the limitation of the dataset, especially the lack of detailed information on seasonal public washrooms. Further investigation into locations without detailed seasonal availability may identify if there is some kind of pattern that could help in future data collection.
+
+
+<!--
 **This section should include a screen capture of your pivot table, like so:**
 
 ![](pivot-table-screen-capture.png)<br>
@@ -171,6 +178,7 @@ Insert text here.
 
 ![](chart-screen-capture.png)<br>
 *Figure 3: This exploratory chart shows...*
+-->
 
 ## 3. Delivering Data
 
@@ -183,13 +191,15 @@ Other elements to tell this story would be to interview city councillors to know
 
 ## 4. References
 
-Include a list of your references here. Please follow [APA](https://apastyle.apa.org/style-grammar-guidelines/references) or [MLA](https://www.mla.org/MLA-Style) guidelines for references. Hanging paragraphs aren't required though.
+<!--Include a list of your references here. Please follow [APA](https://apastyle.apa.org/style-grammar-guidelines/references) or [MLA](https://www.mla.org/MLA-Style) guidelines for references. Hanging paragraphs aren't required though.-->
 
-**Here's an example:**
 
 Mr. Rooter Plumbing. (2026, 01 03). *Canadians Rank Public Washrooms*. https://www.mrrooter.ca/. 
 Retrieved 11 05, 2026, from https://www.mrrooter.ca/about/blog/best-bathrooms-in-canada/
 
 
 
+<!--
+**Here's an example:**
 Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+-->
