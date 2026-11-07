@@ -73,6 +73,7 @@ To include a screen capture, use the sample code below. Your images should be sa
 =IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
 ```
 This also shows how to create an ordered list. Simply put `1.` before each item. -->
+<br>
 
 ## 2. Understanding Data
 
@@ -106,11 +107,13 @@ A formatting issue in row 57 extends beyond the standard length.  All other entr
 Two empty cells in rows 179 and 180 appear to be part of the spreadsheet formatting and are not meant to represent missing data.
 
 
-<!--Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).-->
+<!--Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
 **For example:**
 
 As seen in Bounegru & Gray (2011), a data visualization should be clear...
+-->
+<br>
 
 ### 2.2. Cleaning Data
 
