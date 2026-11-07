@@ -151,7 +151,7 @@ Used “ctrl+f” to replace all number ‘1’ with YES and all number ‘0' wi
 * Converted all address names to capital text using `=UPPER(E:E)`
     1. Copied and pasted values only
     2. Deleted the original address column
-    
+
 ![](cleaned-up-dataset1.jpg)
 *Figure 5: Top half of the dataset.*
 
@@ -174,12 +174,22 @@ Insert text here.
 
 ## 3. Delivering Data
 
-Insert text here.
+It would be interesting to get information on the public's perception of who uses public washrooms. Find out if there is fear of use by people experiencing homelessness and people who use drugs, which would affect the public’s favour to provide more funding or against more usage. 
+
+Another thing to consider is do they have issues with locations and hours? There could be a potential link to race and wealth. According to this survey, Canadians Rank Public Washrooms; hygiene and favourite locations would indicate that wealthier locations are better. People with disposable income frequent sit-down restaurants, airports, and malls more than people with lower incomes (Mr. Rooter Plumbing, 2026). Also racialization is associated with drug abuse and homelessness; would the public be ready to financially support public toilets if these weren’t concerns, or does it not play a part?
+
+Other elements to tell this story would be to interview city councillors to know if they’ve heard any opinions on public toilets within the areas they represent. Do they know if any communities expressed a need for changes to public toilet regulations? What could the councillors do in response? Also, what about the general public? It’d be nice to gather their thoughts on who needs public toilets or who they feel shouldn’t based on city location/availability, or business owners who may have signs stating conditions for their toilet usages and what makes them remove access. And finally, city staff could offer a better understanding of how public washrooms’ funding is granted or how operating hours are decided.
+
 
 ## 4. References
 
 Include a list of your references here. Please follow [APA](https://apastyle.apa.org/style-grammar-guidelines/references) or [MLA](https://www.mla.org/MLA-Style) guidelines for references. Hanging paragraphs aren't required though.
 
 **Here's an example:**
+
+Mr. Rooter Plumbing. (2026, 01 03). *Canadians Rank Public Washrooms*. https://www.mrrooter.ca/. 
+Retrieved 11 05, 2026, from https://www.mrrooter.ca/about/blog/best-bathrooms-in-canada/
+
+
 
 Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
